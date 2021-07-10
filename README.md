@@ -5,6 +5,7 @@ Creating an API allows you to connect to Binance’s servers via several program
 * Binance Support Center
  * [API](https://www.binance.com/en/support/faq/c-6?navId=6)
  * [API DOC](https://binance-docs.github.io/apidocs/spot/en/)
+ * [API DOC CONNECTOR](https://binance-connector.readthedocs.io/en/latest/)
  * [API SPOT DOCS GITHUB](https://github.com/binance/binance-spot-api-docs)
  * [API CONNECTOR GITHUB](https://github.com/binance/binance-connector-python)
 
