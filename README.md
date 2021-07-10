@@ -11,7 +11,7 @@ Creating an API allows you to connect to Binance’s servers via several program
 
 
 ## Unofficial
-* Welcome to python-binance v1.0.12
+Welcome to python-binance v1.0.12
  * Site Documentaion : [python-binance](https://python-binance.readthedocs.io/en/latest/ "This is an unofficial Python wrapper")
  * Github : [python-binance](https://github.com/sammchardy/python-binance)
  * python-binance on [pypi.org](https://pypi.org/project/python-binance/)
