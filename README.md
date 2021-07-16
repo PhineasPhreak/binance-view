@@ -1,6 +1,20 @@
 # binance-view
 Creating an API allows you to connect to Binance’s servers via several programming languages.
 
+## Configuration for API_KEY from Binance 
+Preparation of the `config.py` file for the API keys form Binance
+
+Creation of the file `config.py` in the same directory as the file `binance-view.py`
+```bash
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
+# Paste here Public Key and Private Key
+api_key = "<api-key>"
+api_secret = "<api-secret>"
+```
+
 ## Official
 * Binance Support Center
  * [API](https://www.binance.com/en/support/faq/c-6?navId=6)
