@@ -5,7 +5,7 @@ Creating an API allows you to connect to Binance’s servers via several program
 Preparation of the `config.py` file for the API keys form Binance
 
 Creation of the file `config.py` in the same directory as the file `binance-view.py`
-```bash
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
