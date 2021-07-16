@@ -2,6 +2,10 @@
 __pycache__
 *.pyc
 
+# Don't save the 'config.py'
+# for saving API_KEY gorm BINANCE
+config.py
+
 # Environments
 .env
 
