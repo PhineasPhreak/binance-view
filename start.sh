@@ -2,7 +2,6 @@
 #
 # Github : https://github.com/PhineasPhreak/binance-view
 #
-# Create virtual environment with python3 and pip
 
 env='.env'
 requirements='requirements.txt'
@@ -12,6 +11,7 @@ if [[ -d $env ]]; then
     echo "[*] Directiry '$env' exist"
     exit 1
 else
+    # Create virtual environment with python3 and pip
     echo "[+] Create virtual environment..."
     python3 -m venv $env || \
     echo "Error during the creation of the virtual environment" || exit 1
