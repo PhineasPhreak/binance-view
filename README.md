@@ -12,7 +12,7 @@ Creation of the file `config.py` in the same directory as the file `binance-view
 
 # Paste here Public Key and Private Key
 api_key = "<api-key>"
-api_secret = "<api-secret>"
+secret_key = "<secret-key>"
 ```
 
 ## Official
