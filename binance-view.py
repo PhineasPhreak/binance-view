@@ -9,7 +9,7 @@ client = Spot()
 print(client.time())
 
 # See the 'config.py' to import your Public and Private Key
-client = Spot(key='config.api_key', secret='config.api_secret')
+client = Spot(key='config.api_key', secret='config.secret_key')
 
 # Get account information
 print(client.account())
