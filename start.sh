@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+# PhineasPhreak (AS PSPK)
 # Github : https://github.com/PhineasPhreak/binance-view
 #
 
@@ -7,6 +8,23 @@ env='.env'
 requirements='requirements.txt'
 config='config.py'
 
+# Get API-KEY and SECRET-KEY with prompt
+api_key=$1
+secret_key=$2
+
+if [[ -z $api_key ]]; then
+    api_key='<api-key>'
+else
+    api_key=$1
+fi
+
+if [[ -z $secret_key ]]; then
+    secret_key='<secret-key>'
+else
+    secret_key=$2
+fi
+
+# Check if a directory exists
 if [[ -d $env ]]; then
     echo "[*] Directiry '$env' exist"
     exit 1
@@ -37,14 +55,14 @@ if [[ -f $config ]]; then
     exit 1
 else
     echo "[+] Configuration '$config'"
-    cat > config.py << EOF
+    echo """\
     #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
 
 
     # Paste here Public Key and Private Key
-    api_key = '<api-key>'
-    api_secret = '<api-secret>'
-EOF
+    api_key = '$api_key'
+    secret_key = '$secret_key'
+    """ > config.py
 fi
 
