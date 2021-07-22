@@ -55,14 +55,14 @@ if [[ -f $config ]]; then
     exit 1
 else
     echo "[+] Configuration '$config'"
-    echo """\
-    #!/usr/bin/env python3
-    # -*- coding: utf-8 -*-
+    cat > config.py << EOF
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 
-    # Paste here Public Key and Private Key
-    api_key = '$api_key'
-    secret_key = '$secret_key'
-    """ > config.py
+# Paste here Public Key and Private Key
+api_key = '$api_key'
+secret_key = '$secret_key'
+EOF
 fi
 
